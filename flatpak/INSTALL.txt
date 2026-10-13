@@ -1,0 +1,16 @@
+Install Flatpak Manager as a Flatpak
+====================================
+
+Easiest: open this link in your file manager or browser:
+  https://dl.classicgizmo.com/flatpak/com.classicgizmo.FlatpakManager.flatpakref
+
+Or from a terminal:
+  flatpak install --user https://dl.classicgizmo.com/flatpak/com.classicgizmo.FlatpakManager.flatpakref
+
+Or add the repository once, then install by name (and get updates like any other Flatpak):
+  flatpak remote-add --user --if-not-exists classicgizmo https://dl.classicgizmo.com/flatpak/classicgizmo.flatpakrepo
+  flatpak install --user classicgizmo com.classicgizmo.FlatpakManager
+
+After a Flatpak install, give it permission to run flatpak on your computer (it's already granted
+by default; this only matters if you ever reset overrides):
+  flatpak override --user --talk-name=org.freedesktop.Flatpak com.classicgizmo.FlatpakManager

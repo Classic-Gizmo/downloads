@@ -1,0 +1,58 @@
+Package: flatpak-manager
+Architecture: all
+Version: 1.0.0
+Priority: optional
+Section: utils
+Maintainer: Patrick Murnane <classicgizmo@outlook.com>
+Installed-Size: 216
+Depends: python3 (>= 3.8), python3-tk, python3-pil, python3-pystray, flatpak
+Recommends: xdg-utils, libglib2.0-bin, desktop-file-utils, sound-theme-freedesktop, pulseaudio-utils | pipewire-bin
+Suggests: gnome-shell-extension-appindicator
+Filename: pool/main/f/flatpak-manager/flatpak-manager_1.0.0_all.deb
+Size: 53708
+MD5sum: 3a0e5947b03613edc450c7ae8779efae
+SHA1: abe67df8b24e78a9c19b29788019ab51d8f0fcce
+SHA256: 91775c76b1e419f42b0e8aa58535935c635964dfe336f87fc3314c518919e992
+SHA512: 65039bd10f7868ee7a617fe432f1f8be2222f2972fadd1e06ea00b9cd0ff3591605f22d269343777d6b161b6fa6cdbc623bb6a2d0ca64be2cd494fa6b8b2b15d
+Homepage: https://classicgizmo.com/
+Description: Keep your Flatpak apps updated from the system tray
+ Flatpak Manager watches the Flatpak apps you choose to track. A green
+ arrow in the system tray means everything is up to date; a gold arrow
+ means updates are waiting.
+ .
+ Select several apps and update them together, search Flathub and install
+ apps, open Flathub install links and .flatpakref files, and run routine
+ maintenance (remove unused runtimes, repair, refresh) in a few clicks.
+ .
+ Free to use on up to 10 installations at the same time; more than that
+ needs a paid license (see /usr/share/doc/flatpak-manager/LICENSE.txt).
+
+Package: flatpak-manager
+Architecture: all
+Version: 1.0.1
+Priority: optional
+Section: utils
+Maintainer: Patrick Murnane <classicgizmo@outlook.com>
+Installed-Size: 216
+Depends: python3 (>= 3.8), python3-tk, python3-pil, python3-pystray, flatpak
+Recommends: xdg-utils, libglib2.0-bin, desktop-file-utils, sound-theme-freedesktop, pulseaudio-utils | pipewire-bin
+Suggests: gnome-shell-extension-appindicator
+Filename: pool/main/f/flatpak-manager/flatpak-manager_1.0.1_all.deb
+Size: 53816
+MD5sum: 6c06351111d3089b95a534de7ba4babc
+SHA1: 3942f70bb50caa49287a92485abecadbb1e55a47
+SHA256: 1ecbdc235c5e3dd4190517f1e9bd8f299eaf07f881a674b98ef73cbd552e99d6
+SHA512: 45d98a1ad650a5bcaad4e893a3f8d327d7ce70ed56c608449a8da4ec780531960a693cf4d1cac091810747f57a45a7358e897762debf7246884bd1c821f2d685
+Homepage: https://classicgizmo.com/software/flatpak-manager/
+Description: Keep your Flatpak apps updated from the system tray
+ Flatpak Manager watches the Flatpak apps you choose to track. A green
+ arrow in the system tray means everything is up to date; a gold arrow
+ means updates are waiting.
+ .
+ Select several apps and update them together, search Flathub and install
+ apps, open Flathub install links and .flatpakref files, and run routine
+ maintenance (remove unused runtimes, repair, refresh) in a few clicks.
+ .
+ Free to use on up to 6 installations at the same time; more than that
+ needs a paid license (see /usr/share/doc/flatpak-manager/LICENSE.txt).
+

@@ -1,0 +1,10 @@
+Install Flatpak Manager with apt
+================================
+
+Run these three commands once:
+
+  curl -fsSL https://dl.classicgizmo.com/apt/classicgizmo-archive-keyring.gpg | sudo tee /usr/share/keyrings/classicgizmo-archive-keyring.gpg > /dev/null
+  echo "deb [signed-by=/usr/share/keyrings/classicgizmo-archive-keyring.gpg] https://dl.classicgizmo.com/apt stable main" | sudo tee /etc/apt/sources.list.d/classicgizmo.list
+  sudo apt update && sudo apt install flatpak-manager
+
+After that it updates along with the rest of your system (sudo apt upgrade).
